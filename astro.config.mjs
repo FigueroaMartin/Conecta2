@@ -2,9 +2,13 @@ import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import tailwind from '@astrojs/tailwind';
 
-// https://astro.build/config
 export default defineConfig({
-  integrations: [react(), tailwind()],
+  integrations: [
+    react({
+      strictMode: false // ← FIX PARA WEBRTC
+    }),
+    tailwind()
+  ],
   output: 'static',
   site: 'https://FigueroaMartin.github.io',
   base: '/Conecta2',
