@@ -6,7 +6,7 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   integrations: [react(), tailwind()],
   output: 'static',
-  site: 'https://bemtorres.github.io',
-  base: '/conecta2',
+  site: 'https://FigueroaMartin.github.io',
+  base: '/Conecta2',
 });
 
