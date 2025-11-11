@@ -6,6 +6,7 @@ interface VideoRoomProps {
   username: string;
 }
 
+
 export default function VideoRoom({ channelId, username }: VideoRoomProps) {
   const localVideoRef = useRef<HTMLVideoElement>(null);
   const remoteVideoRef = useRef<HTMLVideoElement>(null);
@@ -20,10 +21,12 @@ export default function VideoRoom({ channelId, username }: VideoRoomProps) {
     ]
   };
 
-  useEffect(() => {
-    initConnection();
-    return () => cleanup();
-  }, []);
+useEffect(() => {
+  if (peerRef.current) return; // evita doble inicialización
+  initConnection();
+  return () => cleanup();
+}, []);
+
 
   const initConnection = async () => {
     if (!supabase) {
