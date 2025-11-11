@@ -2,7 +2,7 @@
 
 Plataforma web para que los jugadores se conecten online mediante chat y video en tiempo real.
 
-## Característicass
+## Características
 
 - 🎮 Sistema de canales para crear y unirse a salas
 - 💬 Chat en tiempo real
