@@ -10,7 +10,7 @@ Plataforma web para que los jugadores se conecten online mediante chat y video e
 - 👤 Almacenamiento de usuarios por nombre (sin login formal)
 - 🎨 Diseño moderno con Tailwind CSS
 
-## Tecnologíass
+## Tecnologías
 
 - **Astro** - Framework principal
 - **React** - Componentes interactivos
