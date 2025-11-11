@@ -1,0 +1,30 @@
+---
+
+proyecto conectados
+
+plataforma para los jugadores se pueda conectar de forma online 
+apartir de un chat y video en react
+
+el proyecto debe esta en astro y poder iniciar un sistema con supabase 
+
+
+la idea es que peuda crear un canal y poder compartir con varios mas, no hay login pero si se guarda quien entra con el nombre del usuario
+
+crea un canal y puede acceder a los chat o video del canal
+
+
+diseña en tailwind 
+
+
+
+
+=== CREDENCIALES SUPABASE ===
+
+PUBLIC_SUPABASE_URL=https://tntacrwceejsgdmjajuq.supabase.co
+PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRudGFjcndjZWVqc2dkbWphanVxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIyOTE5ODgsImV4cCI6MjA3Nzg2Nzk4OH0.__tMu2ByRi390V3RNJtnnn7NEZcoWm4UX3zrSLYSyYw
+
+(Copia estas líneas al archivo .env en la raíz del proyecto)
+
+
+
+
