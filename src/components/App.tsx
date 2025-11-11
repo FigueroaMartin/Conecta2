@@ -46,7 +46,7 @@ export default function App() {
       {/* Header */}
       <header className="bg-gray-800 border-b border-gray-700 px-6 py-4">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-white">🎮 Conectados</h1>
+          <h1 className="text-2xl font-bold text-white">  Conectado ✌️ </h1>
           <div className="flex items-center gap-4">
             <span className="text-gray-300">Usuario: <span className="font-semibold text-blue-400">{username}</span></span>
             {selectedChannel && (
