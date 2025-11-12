@@ -32,27 +32,27 @@ export default function App() {
 
   if (!username) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-900">
+      <div className="min-h-screen flex items-center justify-center bg-red-950">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4"></div>
-          <p className="text-gray-400">Cargando...</p>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-500 mx-auto mb-4"></div>
+          <p className="text-red-200">Cargando...</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-red-950">
       {/* Header */}
-      <header className="bg-gray-800 border-b border-gray-700 px-6 py-4">
+      <header className="bg-red-900 border-b border-red-700 px-6 py-4">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-white">  Conectado ✌️ </h1>
+          <h1 className="text-2xl font-bold text-white">🔥 Conectado ✌️</h1>
           <div className="flex items-center gap-4">
-            <span className="text-gray-300">Usuario: <span className="font-semibold text-blue-400">{username}</span></span>
+            <span className="text-red-200">Usuario: <span className="font-semibold text-red-300">{username}</span></span>
             {selectedChannel && (
               <button
                 onClick={handleBackToChannels}
-                className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-lg transition-colors"
+                className="bg-red-800 hover:bg-red-700 text-white px-4 py-2 rounded-lg transition-colors"
               >
                 ← Volver a Canales
               </button>
@@ -65,7 +65,7 @@ export default function App() {
       <div className="flex h-[calc(100vh-73px)]">
         {/* Sidebar con lista de canales */}
         {!selectedChannel && (
-          <div className="w-80 border-r border-gray-700">
+          <div className="w-80 border-r border-red-700">
             <ChannelList
               onSelectChannel={handleSelectChannel}
               currentChannelId={selectedChannel?.id}
@@ -81,8 +81,8 @@ export default function App() {
               username={username}
             />
           ) : (
-            <div className="h-full flex items-center justify-center bg-gray-900">
-              <div className="text-center text-gray-400">
+            <div className="h-full flex items-center justify-center bg-red-950">
+              <div className="text-center text-red-200">
                 <svg
                   className="w-24 h-24 mx-auto mb-4 opacity-50"
                   fill="none"
